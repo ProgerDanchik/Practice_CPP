@@ -21,7 +21,7 @@ int main() {
 	cout << "long: " << n_long << endl;
 	cout << "long long: " << n_llong << endl;
 
-	cout << "Minimum int value = " << INT_MIN;
+	cout << "Minimum int value = " << INT_MIN << endl;
 	cout << "Bits per byte = " << CHAR_BIT << endl;
 
 	return 0;
