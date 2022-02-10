@@ -48,8 +48,8 @@ int main() {
 	*/
 	
 	// Удаление лишней памяти после использования
-	delete p_student->p_firstName;
-	delete p_student->p_lastName;
+	delete[] p_student->p_firstName;
+	delete[] p_student->p_lastName;
 	delete p_student;
 
 	//Проверка на очистку памяти
