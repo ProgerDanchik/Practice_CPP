@@ -41,4 +41,7 @@ int main() {
 	OutFile << "Year: " << year << endl;
 	OutFile << "Was asking $" << a_price << endl;
 	OutFile << "Now asking $" << d_price << endl;
+	OutFile.close();
+	
+	return 0;
 }
